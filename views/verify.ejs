@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title> Signup Form</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/static/stylesheets/style.css">
+
+</head>
+
+<body style="background-color:aliceblue">
+    <div class="custom_center">
+
+
+
+
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=f88ba9e5-7af0-4c02-b4ae-4016d1eae204&autoRefresh=60&theme=light"></iframe>
+        <br>
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=d1464212-5a56-41f1-8c6b-3c916a27d115&autoRefresh=60&theme=light"></iframe>
+        <br>
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=acc15af7-6de5-4e13-a35c-ffcd96cf0e10&autoRefresh=60&theme=light"></iframe>
+        <br>
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=15090c66-220c-4ec6-9ebe-788c8e399fef&autoRefresh=60&theme=light"></iframe>
+        <br>
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=5116ffc4-0009-44c6-a16f-b33ddb3a153d&autoRefresh=60&theme=light"></iframe>
+        <br>
+        <iframe style="background: #FFFFFF;border: none;border-radius: 2px;box-shadow: 0 2px 10px 0 rgba(70, 76, 79, .2);" width="640" height="480" src="https://charts.mongodb.com/charts-project-0-ldggk/embed/charts?id=3a1358da-9046-4474-8c90-4a05550a131c&autoRefresh=60&theme=light"></iframe>
+
+
+    </div>
+</body>
+<script type="text/javascript">
+    //  var og_otp = document.getElementsByID("og_otp").value;
+    //  var otp = document.getElementsByID("otp").value;
+    var x = document.getElementById('og_otp');
+    var y = document.getElementById('otp_try');
+    og_otp = x.value;
+
+
+    function myFunction() {
+        otpp = y.value;
+        if (og_otp == otpp) {
+            window.location.replace("http://localhost:3000/signup_success");
+
+        } else {
+            alert("Wrong OTP");
+        }
+        var emailll = document.getElementById("og_otp").value;
+        console.log(emailll);
+    }
+</script>
+
+
+</html>

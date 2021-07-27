@@ -1,0 +1,39 @@
+*{
+    background-color: #286090;
+}
+
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    box-shadow: 5px 5px 7px 5px #d87676;
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #90cc68;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    background-color: #2f4d69;
+    border: none;
+    color: rgb(126, 50, 50);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+/* .debo_custom{
+    background-color: rgb(20, 72, 90)!important     ;
+  } */
